@@ -56,4 +56,15 @@ html.mobile1512 body.nav-open1512{overflow:hidden}
 #modal .edit-modal158>.modalhead{position:relative;top:auto;z-index:10;background:var(--panel);}
 .top{isolation:isolate;z-index:20;background:var(--panel)}.content{isolation:isolate;position:relative;z-index:0}
 .version051,.release-version051{font-size:11px;font-weight:400;color:var(--muted);white-space:nowrap}.version051{margin-left:8px;flex:none}
-</style></head><body><div id="app"></div><div id="modal"></div><script src="config.js"></script><script src="app.js?v=0.8.1" defer></script></body></html>
+
+/* v0.8.1: keep the current section readable independently of the version. */
+.top{height:auto;min-height:61px;flex-wrap:wrap;align-items:center;}
+.top>.top-heading081{flex:1 1 220px;min-width:0;max-width:100%;flex-wrap:nowrap;align-items:center;gap:8px;}
+.top-heading081>.mobile{flex:none;}
+.top-heading081>.top-heading-text081{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:2px;flex:1 1 auto;min-width:0;max-width:100%;}
+.top>.top-heading081:first-child .top-heading-text081>b{display:block;max-width:100%;font-size:15px;line-height:1.3;white-space:normal;word-break:normal;overflow-wrap:break-word;flex:none;}
+.top .top-heading-text081>.version051{display:block;flex:none;margin:0;padding:0;border:0;border-radius:0;font-size:10px;line-height:1.2;white-space:nowrap;}
+.top>.actions{flex:0 1 auto;min-width:0;max-width:100%;flex-wrap:wrap;}
+.mobile1512 .top>.top-heading081{flex:1 1 100%;width:100%;}
+@media(max-width:760px){.top>.top-heading081{flex:1 1 100%;width:100%;}.top>.actions{flex:1 1 100%;}.top .top-heading-text081>b{font-size:15px;}}
+</style></head><body><div id="app"></div><div id="modal"></div><script src="config.js"></script><script src="app.js?v=0.8.1-header1" defer></script></body></html>
