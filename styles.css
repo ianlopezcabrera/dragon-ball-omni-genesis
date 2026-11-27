@@ -120,3 +120,8 @@ html.wall-scroll082 #wall-layer082{position:absolute;height:calc(100vh - var(--w
 html.mobile1512 #wall-layer082{inset:0;}
 
 @supports(backdrop-filter:blur(1px)){.content>.card:not(:has(details,select,input,button)),.content>.grid>.card:not(:has(details,select,input,button)){backdrop-filter:blur(var(--panel-blur082));}}
+
+/* 0.8.3: non-interactive mobile image, visible full-width with a softly blended base. */
+html.mobile1512 #wall-layer082{top:0;bottom:0;background:var(--bg)}html.mobile1512 #wall-layer082[data-fit083="contain"] img{object-fit:contain;object-position:var(--wall-pos);mask-image:linear-gradient(to bottom,#000 0%,#000 72%,transparent 100%)}.prob-alert083{border-color:#d29945;color:#ffd69b;background:var(--surface);white-space:normal;font-size:12px}.mobile1512 .prob-alert083{min-height:44px;width:100%}.prob-alert083:hover{border-color:#ffd69b}
+
+html.mobile1512 #wall-layer082[data-fit083="contain"]{top:var(--wall-top082);bottom:0;}html.mobile1512 #wall-layer082[data-fit083="contain"] img{object-position:center top;mask-image:none;}html.mobile1512 #wall-layer082[data-fit083="contain"]:after{background:linear-gradient(to bottom,rgba(6,10,16,var(--wall-overlay)) 0%,rgba(6,10,16,var(--wall-overlay)) 30%,var(--bg) 62%);} .content>.prob-alert083{display:block;margin:0 0 12px;max-width:100%;text-align:left;width:auto;}
