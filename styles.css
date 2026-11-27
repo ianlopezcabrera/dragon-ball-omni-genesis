@@ -128,3 +128,6 @@ html.mobile1512 #wall-layer082[data-fit083="contain"]{top:var(--wall-top082);bot
 
 /* Notification inbox */
 .notice-filters085{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr));align-items:end;gap:8px;margin:12px 0 16px}.notice-filters085 label{margin:0}.notice-head085{flex-wrap:wrap;margin-bottom:8px}.notice085{border-left:3px solid var(--border)}.notice-unread085{border-left-color:var(--accent)}.notice-unread085[data-priority=urgente],.notice-unread085[data-priority=critica]{border-left-color:#e17d7d}.notice085 h3{margin:8px 0 0}.notice085 .actions{margin-top:10px}.notice-target085{outline:2px solid var(--accent);outline-offset:3px}@media(max-width:600px){.notice-head085 .actions{width:100%}.notice-filters085{grid-template-columns:1fr 1fr}.notice085 .row{flex-wrap:wrap}.notice085 .actions button{flex:1 1 120px}}
+
+/* 0.8.6: authentication is always independent of the app shell. */
+body:has(#app > .auth) #wall-layer082{inset:0!important;height:100dvh!important;}#app>.auth{width:100%;min-height:100vh;min-height:100dvh;box-sizing:border-box;}#app>.auth>.card{max-width:min(420px,100%);margin:0;} .notice-filters085>*{min-width:0;max-width:100%;} @media(max-width:360px){.notice-filters085{grid-template-columns:1fr;}.notice-head085 .actions>button{flex:1 1 130px;}}
