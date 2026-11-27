@@ -67,4 +67,11 @@ html.mobile1512 body.nav-open1512{overflow:hidden}
 .top>.actions{flex:0 1 auto;min-width:0;max-width:100%;flex-wrap:wrap;}
 .mobile1512 .top>.top-heading081{flex:1 1 100%;width:100%;}
 @media(max-width:760px){.top>.top-heading081{flex:1 1 100%;width:100%;}.top>.actions{flex:1 1 100%;}.top .top-heading-text081>b{font-size:15px;}}
+
+/* Desktop header: keep title/version and account actions on the same row. */
+html:not(.mobile1512) .top{flex-wrap:nowrap;align-items:center;min-height:61px;padding-block:8px;}
+html:not(.mobile1512) .top>.top-heading081{flex:1 1 0;min-width:min(160px,35%);align-self:center;}
+html:not(.mobile1512) .top>.actions{flex:0 1 auto;align-self:center;align-items:center;justify-content:flex-end;min-width:0;}
+/* Keep the existing stacked mobile header; actions fill the available row. */
+.mobile1512 .top>.actions{flex:1 1 100%;justify-content:flex-start;align-items:center;}
 </style></head><body><div id="app"></div><div id="modal"></div><script src="config.js"></script><script src="app.js?v=0.8.1-header1" defer></script></body></html>
