@@ -1,1 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="210" viewBox="0 0 420 210"><ellipse cx="210" cy="121" rx="199" ry="78" fill="#4b352d" opacity=".8"/><ellipse cx="210" cy="119" rx="173" ry="58" fill="#96765c"/><path d="m26 111 47 5-23-22 60 17m262-16-53 21 67 5M67 155l57-20m209 29-46-27" stroke="#523c32" stroke-width="4" fill="none"/><g stroke="#29212a" stroke-width="4" stroke-linejoin="round"><path d="m165 101-44-35-43 14 9 25 39-7 34 32m91-10 51 24 27-16-14-19-20 8-34-33" fill="#e5aa79"/><path d="m160 86 69-11 45 37-30 30-88-13z" fill="#dc7336"/><path d="m225 77-11 61 19 5 13-57z" fill="#284c77"/><path d="m248 119 56 48 53-11-7-25-39 6-42-32m-28 33-4 45 49 12 9-24-30-13 9-32" fill="#e98439"/><path d="m350 130 27-7 12 13-11 29-23-9m-70 14 19 10-3 25-32-3-3-10" fill="#293b65"/><path d="m115 76 25-17 35 12 10 27-17 25-36-3-17-20z" fill="#efb68b"/><path d="m119 96-20-10 12-15-13-14 28 3 14-21 12 16 24-8-4 19 18 7-14 23-13-18-28-3z" fill="#23202a"/><path d="m133 98 11 5m10 3 10 6m-20 2 7 3" fill="none" stroke-linecap="round"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430">
+<defs>
+ <linearGradient id="earth" x1="0" y1="0" x2="0.25" y2="1"><stop stop-color="#e8b779"/><stop offset=".48" stop-color="#bd8651"/><stop offset="1" stop-color="#754b31"/></linearGradient>
+ <linearGradient id="hole" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#62432d"/><stop offset=".46" stop-color="#97643c"/><stop offset="1" stop-color="#c39360"/></linearGradient>
+ <linearGradient id="gi" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#ffb34e"/><stop offset=".52" stop-color="#ed722c"/><stop offset="1" stop-color="#b53a19"/></linearGradient>
+ <radialGradient id="shadow"><stop stop-color="#35241d" stop-opacity=".8"/><stop offset="1" stop-color="#35241d" stop-opacity="0"/></radialGradient>
+ <filter id="shade" x="-20%" y="-30%" width="140%" height="160%"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<!-- Ragged crater silhouette, no opaque rectangular background. -->
+<ellipse cx="360" cy="330" rx="322" ry="77" fill="url(#shadow)"/>
+<path d="M22 257 48 235 36 217 81 206 71 184 121 171 134 147 187 145 206 119 260 129 297 108 345 118 393 106 427 127 480 116 507 145 564 145 586 168 634 181 632 204 678 217 666 239 699 260 674 282 678 305 625 321 599 348 550 351 521 373 468 368 429 389 374 377 332 391 286 375 239 380 205 357 151 360 133 335 85 329 77 303 39 296 48 278Z" fill="#754b34" stroke="#493329" stroke-width="3" stroke-linejoin="round"/>
+<path d="M30 248 68 230 58 215 103 196 98 180 147 168 164 148 219 147 238 130 285 139 321 123 362 133 398 120 448 144 480 133 514 158 559 157 580 180 619 191 616 210 655 225 644 242 682 261 654 278 660 296 610 309 589 331 541 336 513 351 467 346 425 365 377 352 333 366 293 352 248 359 213 339 162 339 143 315 98 314 93 292 57 281Z" fill="url(#earth)"/>
+<path d="M111 240 139 206 201 179 264 162 340 153 414 159 480 173 540 197 588 234 608 260 576 295 519 318 452 337 370 345 291 333 221 321 162 293 127 266Z" fill="url(#hole)" stroke="#5d402c" stroke-width="3"/>
+<path d="M111 240 139 206 201 179 264 162 340 153 414 159 480 173 540 197 588 234 608 260 579 246 550 221 491 202 421 187 342 181 267 190 205 205 154 229 127 266Z" fill="#69472e" opacity=".8"/>
+<g stroke="#6c4930" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="m139 206-24-14-13 4m99-17-23-21-19 10m105-6-10-24-16-8m102 23 14-20m60 26 15-24m51 38 29-19 5 4m26 39 39-17m9 54 46-9 13-16m-26 72 27 16m-73 21 29 24m-91-5 9 23m-92-9-2 16m-85-9-17 20m-72-45-24 23m-56-48-27 21m-43-42-34 2"/>
+<path d="m160 285 44-6 28 20m276-8 22-18 25 3m-120 44 14-17 29-7m-224 24 17-11m50 17 20-7m-193-73 30 3m382 3 19-2" stroke="#8c623e" stroke-width="2"/>
+</g>
+<g fill="#d5a26c" stroke="#805734" stroke-width="2"><path d="m102 237 15-10 14 8-8 11z"/><path d="m563 266 14-7 11 13-15 6z"/><path d="m219 316 19-10 10 12-15 7z"/><path d="m479 190 14-7 12 10-13 6z"/><path d="m104 293 15-7 9 11-16 5z"/><path d="m605 301 16-8 10 8-14 8z"/><path d="m344 348 13-10 15 9-7 9z"/></g>
+<!-- Low, compressed side-on pose inspired by the iconic impact scene. -->
+<ellipse cx="359" cy="265" rx="190" ry="49" fill="#3d2820" opacity=".47" filter="url(#shade)"/>
+<g stroke="#302827" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+<!-- rear arm, wristband, clenched hand -->
+<path d="M298 222Q272 209 251 197L216 198 201 183 208 172 226 170 244 181 264 177Q285 181 320 205Z" fill="#edb27e"/>
+<path d="m238 179-4 19 14 2 7-20z" fill="#233957"/>
+<path d="m209 183 10-3m-8 9 9-3" fill="none" stroke-width="2"/>
+<!-- legs, gi folds, boots -->
+<path d="M375 241Q407 215 448 225L485 246 515 233 532 249 518 269 479 282Q465 285 452 275L426 256 412 277 370 268Z" fill="url(#gi)"/>
+<path d="m456 250 23 13 27-9m-86-8 15-7m-19 28-14 4" fill="none" stroke="#9f351c" stroke-width="3"/>
+<path d="M518 234 540 225 554 233 561 248 545 258 522 267 511 251Z" fill="#283d65"/>
+<path d="m535 230 13 19m-24-10 11 16" stroke="#d7b16b" stroke-width="2"/>
+<path d="M383 248Q410 246 432 263L458 291 499 291 508 310 488 321 446 321Q431 318 419 303L392 285 362 276Z" fill="url(#gi)"/>
+<path d="m427 282 17 23 30 6m-68-38 17 13m-43-15 13-9" fill="none" stroke="#9f351c" stroke-width="3"/>
+<path d="M495 291 518 285 532 291 535 304 527 314 505 320 493 315Z" fill="#243758"/>
+<path d="m501 291 8 24m9-26 8 18" stroke="#d8b576" stroke-width="2"/>
+<!-- torso and blue belt -->
+<path d="M295 199Q323 191 355 207L390 234 397 260 376 281 344 278 314 259 290 237 282 217Z" fill="url(#gi)"/>
+<path d="M308 201 320 216 300 236 284 219Z" fill="#263a63"/>
+<path d="M370 225 386 234 396 258 385 271 369 253Z" fill="#263a63"/>
+<path d="m380 258 18 2-1 10-20-4 12 13-8 5-15-17" fill="#334b76"/>
+<path d="m326 215 20 9 8 12m-39 5 26 18m10-9 9 14m-25-47 4 9" stroke="#a44323" stroke-width="2.7" fill="none"/>
+<!-- front arm folded inward -->
+<path d="M313 232Q307 244 287 250L271 277 246 282 235 273 239 261 251 258 261 234 283 221Z" fill="#f2bd89"/>
+<path d="m247 257 14 14-8 10-13-15z" fill="#273e65"/>
+<path d="m239 270 8 2m-5 5 7 1" stroke="#8a5538" stroke-width="2" fill="none"/>
+<!-- face lying to the left, angular black hair -->
+<path d="M251 202 274 202 290 215 287 239 271 253 249 251 232 240 229 220Z" fill="#f2bd89"/>
+<path d="m273 209 9 8-4 17-7 6-5-8 4-9" fill="#d99565" stroke="none"/>
+<path d="m247 232 8 3m-9 4 8 3m10-9 3 8-4 4m-9 2 8 2" fill="none" stroke="#704534" stroke-width="2"/>
+<path d="m257 221-2 6 6 4m6-11 5 6" stroke="#80503a" stroke-width="2" fill="none"/>
+<path d="m239 234-14-3-7-11-18 2 10-13-21-7 22-6-12-15 24 4 6-17 14 14 19-11 2 17 20-3-4 16 15 6-11 15-8-4-10-15-19 12-8 12-2-9z" fill="#22252e"/>
+<path d="m213 204 25-8 12-8m-20 23 16-10m23-9 8 7" fill="none" stroke="#454752" stroke-width="2.5"/>
+</g>
+<g fill="#e2b27a" opacity=".75"><circle cx="177" cy="275" r="3"/><circle cx="207" cy="289" r="2"/><circle cx="546" cy="284" r="3"/><circle cx="568" cy="295" r="2"/><circle cx="346" cy="307" r="2.5"/></g>
+</svg>
