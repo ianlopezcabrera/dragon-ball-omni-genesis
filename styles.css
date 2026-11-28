@@ -205,3 +205,19 @@ input[type=checkbox],input[type=radio]{appearance:none;-webkit-appearance:none;d
 button.context-help087{align-self:center;justify-self:start;flex:0 0 auto!important;max-width:24px;transform:none!important;animation:none!important;transition:none!important;overflow:hidden;}
 @media(max-width:680px){button.context-help087{max-width:28px;}}
 @media(hover:none){html[data-motion080="full"] button:hover:not(:disabled){box-shadow:none}}
+/* 0.8.8: second interaction correction */
+html body button.context-help087{display:inline-flex!important;position:relative!important;inset:auto!important;box-sizing:border-box!important;width:24px!important;height:24px!important;min-width:24px!important;max-width:24px!important;min-height:24px!important;max-height:24px!important;flex:0 0 24px!important;place-self:center start!important;justify-content:center!important;align-items:center!important;padding:0!important;margin:0 4px!important;transform:none!important;transition:none!important;animation:none!important;outline:none!important;box-shadow:none!important;border-color:var(--border)!important;pointer-events:auto!important;overflow:hidden!important;isolation:isolate;}
+html body button.context-help087::before,html body button.context-help087::after{content:none!important;pointer-events:none!important;}
+html body button.context-help087.help-hover088,html body button.context-help087:focus-visible{border-color:var(--accent)!important;outline:1px solid var(--accent)!important;outline-offset:1px!important;box-shadow:none!important;}
+@media(max-width:680px){html body button.context-help087{width:28px!important;height:28px!important;min-width:28px!important;max-width:28px!important;min-height:28px!important;max-height:28px!important;flex-basis:28px!important}}
+.prank088-overlay.prank088-video{place-items:center!important;display:grid!important;background:#0009;pointer-events:auto;}
+.prank088-video .prank088-card{position:relative!important;inset:auto!important;width:min(1050px,94vw)!important;max-width:94vw!important;margin:0!important;}
+.prank088-video .prank088-body video{width:100%;height:auto;max-height:78dvh;pointer-events:none;}
+.prank088-quake{animation:prank088-shake2 .19s linear infinite!important;transform-origin:center;}
+@keyframes prank088-shake2{0%{transform:translate(-17px,12px) rotate(-1.3deg)}25%{transform:translate(19px,-13px) rotate(1.6deg)}50%{transform:translate(-12px,-17px) rotate(-1.1deg)}75%{transform:translate(16px,16px) rotate(1.2deg)}100%{transform:translate(-17px,12px) rotate(-1.3deg)}}
+#app.prank088-invert-ready{transition:transform .65s ease-in-out!important;transform-origin:center center;}
+#app.prank088-invert-ready.prank088-invert{transform:rotate(180deg);}
+html body .prank088-dodge{transition:transform .5s cubic-bezier(.15,.75,.22,1)!important;opacity:1!important;pointer-events:none!important;}
+.prank088-guide-arrow{position:fixed;z-index:2147482002;font-size:32px;color:#f3a52d;text-shadow:0 2px 6px #000;pointer-events:none;transform:rotate(180deg);}
+.prank088-guide-arrow.prank088-guide-wrong{transform:rotate(0deg);}
+@media(prefers-reduced-motion:reduce){.prank088-quake{animation:none!important}#app.prank088-invert-ready,html body .prank088-dodge{transition:none!important}}
