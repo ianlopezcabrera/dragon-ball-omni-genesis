@@ -1370,6 +1370,7 @@ const contentBefore080=contentView;handlers.contentView=function(k,id){let resul
 function sheetCardMeta080(r){const tags=[];let race=sf('race'),age=sf('age1510')||sf('age');if(race&&dataAllowed('sheets','f_'+race.id)&&r.values?.[race.id]){let def=raceOf(r);if(def)tags.push(icon080('races')+E(def.name));}if(age&&dataAllowed('sheets','f_'+age.id)&&r.values?.[age.id]!==undefined&&r.values[age.id]!==''&&Number.isFinite(Number(r.values[age.id])))tags.push(icon080('chronology080')+E(r.values[age.id])+' años');return tags.length?`<div class="sheet-meta080">${tags.map(t=>'<span>'+t+'</span>').join('')}</div>`:'';}
 function motionMode080(p={}){return ['full','minimal','off'].includes(p.motion080)?p.motion080:'full';}
 const iconPaths080={
+ visual088:'<circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18M12 3c5 4 5 14 0 18M3 12h18M5 7h14M5 17h14"/><path d="m15 4 5 5"/>',
  technical087:'<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m10 8-3 3 3 3m4-6 3 3-3 3M8 18h8"/>',
  pranks088:'<circle cx="12" cy="12" r="9"/><path d="M8 9h.01M16 9h.01M7 14c3 4 7 4 10 0"/>',
  sheets:'<rect x="5" y="3" width="14" height="18" rx="2"/><circle cx="12" cy="9" r="2.5"/><path d="M8 16c0-4 8-4 8 0M9 19h6"/>',
